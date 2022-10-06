@@ -1,17 +1,14 @@
 # git commands used to connect repository
- 1068  git remote -v
- 1069  git fetch origin
- 1070  git status
- 1071  rm -rf .git
- 1072  git status
- 1073  clear
- 1074  git init
- 1075  git config --global user.name "Michael Rodgers"
- 1076  git config --global user.email "michael.rodgers@my.marianas.edu"
- 1077  git remote add origin https://github.com/michaelrodgers-marianas/didactic-eureka.git
- 1078  git remote -v
- 1079  git fetch origin
- 1080  git switch main
- 1081  git branch
- 1082  git pull origin
- 1083  ls
+git init
+git config --global user.name "Michael Rodgers"
+git config --global user.email "michael.rodgers@my.marianas.edu"
+git remote add origin https://github.com/michaelrodgers-marianas/didactic-eureka.git
+git remote -v
+git fetch origin
+git switch main
+git branch
+git pull origin
+git remote set-url origin https://michaelrodgers-marianas:<Replace with GitHub Personal Access Token>@github.com/michaelrodgers-marianas/didactic-eureka.git
+git add .
+git commit -m "first commit"
+git push origin
